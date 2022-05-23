@@ -1,62 +1,205 @@
+
+<style>
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+</style>
+
 <nav
   class="relative w-full flex flex-wrap  justify-between py-3 bg-blue text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light"
 >
   <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
     <a class="flex" href="#">
         <img src="assets/icons/logo.svg" alt="">
-        <h2 class="px-2 py-2 text-lg font-bold">UnitesDev</h2>
+        <h2 class="px-2 py-2 text-2xl font-bold">UnitesDev</h2>
     </a>
     <ul class="flex  justify-items-center mr-auto pl-20 ">
-        <li class="px-5 text-lg">About</li>
-        <li class="px-5 text-lg">Skills</li>
-        <li class="text-lg">Contact</li>
+        <li class="px-5 text-xl">About</li>
+        <li class="px-5 text-xl">Skills</li>
+        <li class="text-xl">Contact</li>
     </ul>
     <a class="text-white  hover:opacity-80 focus:opacity-80 mr-auto mr-10" href="#">
-        <button class="bg-green text-white p-3 rounded-md">Get In Touch</button>
+        <button class="bg-green text-white p-3 text-lg rounded-md">Get In Touch</button>
       </a>
   </div>
   <!-- center content -->
 </nav>
-
-<div class="container-fluid bg-grey flex w-full  py-10  pt-40">
-   <div class="flex-none ml-10">
-    <h1 class="font-bold text-7xl pb-4">I'm Unite</h1>
-    <h1 class="font-bold text-7xl  pb-3">Full Stack Developer</h1>
-    <p class="pl-1">RSA based freelancer</p>
-    <button class="bg-yellow text-white p-3 mt-20 rounded-md">
-        <a href="#"> Download CV</a>
-    </button>
-    <button class="bg-blue text-white p-3  mt-10 ml-5  rounded-md">
-        <a href="#"> Read more</a>
-    </button>
-   </div>
-
-    <div class="flex justify-end w-full  mr-0 -mt-20 ">
-        <div class="justify-self-end pr-20">
-
-            <img class="block justify-self-end" src="../../assets/icons/background_image.svg" alt="">
+<body>
+    <div class="w-full h-full">
+    
+      <!-- Background image -->
+  <div class="relative overflow-hidden bg-no-repeat bg-cover" style="
+  background-position: 100%;
+  background-image: url('../../assets/icons/slide.svg');
+  height: 600px;
+">
+  <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+    style="background-color: rgba(0, 0, 0, 0.30)">
+    <div class="container-fluid flex w-full  py-10  pt-40">
+        <div class="flex-none ml-10">
+         <h1 class="font-bold text-7xl text-white pb-4">I'm Unite</h1>
+         <h1 class="font-bold text-7xl text-white  pb-3">Full Stack <span style="color:#9AD8A2"> Developer</span></h1>
+         <p class="pl-1 text-white">RSA based freelancer</p>
+         <button class="bg-green text-white text-xl p-3 mt-20 rounded-md">
+             <a href="#" > Download CV</a>
+         </button>
+         <button class="bg-blue text-white p-3 text-xl mt-10 ml-5  rounded-md">
+             <a href="#"> Read more</a>
+         </button>
         </div>
-    </div>
-   
-</div>
-
-<div>
-  
-    <div class="mt-20">
-        <h4 class="ml-10 font-semibold text-5xl">About me</h4>
-        <p class="text-2xl ml-10 mt-5"> 
-            Want a creative website or application?
-            I'm here to help
-        </p>
-        <p class="mt-5 ml-10">
-            I’m  Unite, experienced software developer,
-            building applications and websites.  
-        </p>
-
+     
+         
         
+     </div>
+  </div>
+</div>
+<!-- Background image -->
+    
     </div>
 
-</div>
+    <div>
+        <div class="container grid grid-flow-row-dense grid-cols-3 grid-rows-1 ...">
+            <div class="col-span-2">
+                <div class="mt-20 pr-20 pl-20 ml-20 pt-10">
+                    <h4 class="ml-10 font-semibold text-6xl pl-20">About me</h4>
+                    <h5 class="text-2xl font-semibold ml-10 mt-10 pl-20">  Unite Mashigo</h5>
+                    <p class="text-2xl ml-10 mt-5 pl-20">  
+                      
+                        I’m an experienced software developer,Mobile web specialist and Wordpress developer
+                        
+                    </p>
+                    <p class="mt-5 ml-10 pl-20">
+                        I'm a graduate of Computer science's Class of 2021 and my passion is Computer Science.
+                        My interests include software design and development, artificial intelligence, machine learning, cloud computing and project management.
+                        building applications and websites.Adept at programming, business analysis, modeling and implementation of modules.Want a creative website or application? I'm here to help  
+                    </p>
+                    
+                    <h5 class="text-2xl font-semibold ml-10 mt-10 pl-20">Learn more about my:</h5>
+                   <div class="pl-20 flex">
+                    <button class="bg-grey  p-3 text-xl mt-10 ml-10 font-medium rounded-md">
+                        <a href="#"> Skills</a>
+                    </button>
+                    <button class="bg-grey  p-3 text-xl mt-10 ml-10 font-medium rounded-md">
+                        <a href="#"> Projects</a>
+                    </button>
+                    <button class="bg-grey  p-3 text-xl mt-10 ml-10 font-medium rounded-md">
+                        <a href="#"> Work experience</a>
+                    </button>
+                   </div>
+    
+            
+                </div>
+    
+            </div>
+            <div>
+                <div class="text-center pr-20 pl-20 mt-20 mr-20 pt-20">
+                    <img
+                      src="../../assets/icons/profile.svg"
+                      class="rounded-full w-100 mb-4 mt-20 mx-auto"
+                      alt="Avatar"
+                    />
+                    <h5 class="text-xl text-blue font-medium leading-tight mb-2">Full stack developer</h5>
+                    <p class="text-gray-500">2+ Experience</p>
+                  </div>
+            </div>
+          </div>
+    
+          <div class="bg-blue text-white py-20 mt-20">
+
+            <div class="container grid grid-flow-row-dense grid-cols-2  grid-rows-1 ...">
+                <div class="col-span-2 flex">
+                    <div class="pr-20 pl-20 ml-20 ">
+                        <h5 class="text-3xl ml-20" >
+                            Are you ready to make a bigger impact and try something new? <br> I'm here to help.
+                        </h5>
+                    </div>
+                    <div class="">
+                        
+                        <button class="bg-green text-white p-3 text-xl mt-2 ml-60  rounded-md">
+                            <a href="#"> Get In Touch</a>
+                        </button>
+                    
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            
+          </div>
+          <div class="container grid grid-flow-row-dense grid-cols-3  grid-rows-1 ...">
+              
+          <div class="col-span-2 flex">
+            <div class=" mt-20 py-20 ml-10">
+                <h4 class="ml-10 pl-20 mb-10  font-semibold text-6xl">Skills</h4>
+                <h6 class="text-xl pl-20 ml-10">The beginning of the day is vitally
+                    important to how the rest of your day 
+                    is likely to go. Learning a new language is not hard , what is important is commitment and perseverance to what you want to archieve. A good developer is always ready for any challenge that comes on the way, no matter how challenging it is, fact is one language will definetely give a solution. Displayed are my skills in the tech industry
+                </h6>
+                
+               
+             </div>
+             <div class="row">
+                 
+             </div>
+             <div class="text-center   mt-10  flex pt-20">
+
+                <img
+                src="../../assets/icons/angular.svg"
+                class="mb-4 mt-10 ml-10"
+                alt="angular-icon"
+              />
+              <img
+              src="../../assets/icons/boostrap.svg"
+              class="mb-4 mt-10 ml-10"
+              alt="angular-icon"
+            />
+            <img
+            src="../../assets/icons/html.svg"
+            class="mb-4 mt-10 ml-10"
+            alt="angular-icon"
+          />
+       
+            
+             </div>
+             <div class="row">
+                <div class="text-center  flex pt-20">
+
+                    <img
+                    src="../../assets/icons/angular.svg"
+                    class="mb-4 mt-10 ml-10"
+                    alt="angular-icon"
+                  />
+                  <img
+                  src="../../assets/icons/boostrap.svg"
+                  class="mb-4 mt-10 ml-10"
+                  alt="angular-icon"
+                />
+                <img
+                src="../../assets/icons/html.svg"
+                class="mb-4 mt-10 ml-10"
+                alt="angular-icon"
+              />
+           
+                
+                 </div>
+             </div>
+             
+          </div>
+          </div>
+            
+            
+          
+    
+    </div>
+
+   
+  
+</body>
+
+
 
 
 
